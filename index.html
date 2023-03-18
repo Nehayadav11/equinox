@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <section class="navigation">
+            <div class="nav-container">
+              <div class="brand">
+                <img src="C:\Desktop\equinox\Photos\Dark Green and Marigold Regular Sports Logo.png" class="nav-brand" alt="logo tiket.com" width=80px height=62px>
+              </div>
+              <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li >
+                        <a href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="history.html">History</a>
+                    </li>
+                  <li>
+                    <a href="">Services</a>
+                    <ul class="nav-dropdown">
+                        <li >
+                            <a href="book.html">Book your seat</a>
+                        </li>
+                        
+                        <li>
+                            <a href="cancel.html">Cancel your last booking</a>
+                        </li>
+                        <li >
+                            <a href="transfer.html">Transfer Ticket</a>
+                        </li>
+                        <li >
+                            <a href="conformation.html">Check Conformation</a>
+                        </li>                  
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+                <li>
+                    <a href="login.html">Sign-in/Sign-up</a>
+                </li>
+                </ul>
+              </nav>
+            </div>
+          </section>
+        </header>
+    <section class="main-slider">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://static.tiket.photos/image/upload/v1595580672/banner/2020/07/24/f3eb427a-bf43-4fbe-bc49-2247205def37-1595580670552-9b3ccd65573ef91c17aa9c0abd50c7cf.jpg"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.tiket.photos/image/upload/v1595580672/banner/2020/07/24/f3eb427a-bf43-4fbe-bc49-2247205def37-1595580670552-9b3ccd65573ef91c17aa9c0abd50c7cf.jpg"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://static.tiket.photos/image/upload/v1595580588/banner/2020/07/24/789f8769-cf68-44ab-b89f-f230f042a8a2-1595580586861-3ef820ad45e6acfe513a28488ec301f9.jpg"
+                        alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <i class="fa fa-check-circle" aria-hidden="true"></i>
+    <section class="product-widget">
+        <div class="product-list-container">
+            <div class="product-list-title">Hey, you <strong>looking for a seat in IGDTUW auditorium?</strong></div>
+            <div class="product-list-content">
+                <a class="product-box" href="book.html" target="_blank">
+                    <div class="product-logo" ><img
+                            src="https://cdn.onlinewebfonts.com/svg/img_110926.png"
+                            alt="Book seats"></div><span class="product-label">Book seats</span>
+                </a>
+                <a class="product-box" href="cancel.html" target="_blank">
+                    <div class="product-logo"><img
+                            src="https://cdn-icons-png.flaticon.com/512/45/45240.png"
+                            alt="Cancel anytime">
+                    </div><span class="product-label">Cancel anytime</span>
+                </a>
+                <a class="product-box" href="transfer.html" target="_blank">
+                    <div class="product-logo"><img
+                            src="data:image/png;base64,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"
+                            alt="Transfer tickets"></div><span class="product-label">Transfer tickets</span>
+                </a>
+                <a class="product-box" href="history.html" target="_blank">
+                    <div class="product-logo"><img
+                            src="https://cdn-icons-png.flaticon.com/512/5110/5110947.png"
+                            alt="Know your past bookings"></div><span class="product-label">Know your past bookings</span>
+                </a>
+                <a class="product-box" href="conformation.html" target="_blank">
+                    <div class="product-logo"><img
+                            src="https://icon-library.com/images/status-icon-png/status-icon-png-28.jpg"
+                            alt="Check status"></div><span class="product-label">Check status</span>
+                </a>
+                <a class="product-box" href="index.html" target="_blank">
+                    <div class="product-logo"><img
+                            src="https://cdn-icons-png.flaticon.com/512/54/54941.png"
+                            alt="Events"></div><span class="product-label">Events</span>
+                </a>
+            </div>
+        </div>
+        <div class="product-booking-promo">
+            <div class="promo"><i class="fas fa-bed"></i>
+                <h6>Book your seat now so that you don't miss out on any event</h6>
+            </div>
+            <a href="#">recently searched <i class="fas fa-angle-right    "></i></a>
+        </div>
+        <a href="#" class="search-btn">BOOK NOW</a>
+    </section>
+    <section class="feature-box">
+        <div class="container">
+            <div class="feature-wrapper">
+                <div class="feature">
+                    <div class="feature-image">
+                        <img alt="Simple Profile" src="https://en.tiket.com/home-ms/assets/25a69c26.svg">
+                    </div>              
+                                       
+                    <div class="feature-info">
+                        <h3>Book your seat</h3>
+                        <p>Faster booking, one click to fill passenger details.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-image">
+                        <img alt="Simple Profile" src="https://en.tiket.com/home-ms/assets/25a69c26.svg">
+                    </div>
+                    <div class="feature-info">
+                        <h3>Cancel your booking</h3>
+                        <p>Faster booking, one click to fill passenger details.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-image">
+                        <img alt="Simple Profile" src="https://en.tiket.com/home-ms/assets/25a69c26.svg">
+                    </div>
+                    <div class="feature-info">
+                        <h3>Transfer Ticket</h3>
+                        <p>Faster booking, one click to fill passenger details.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-image">
+                        <img alt="Simple Profile" src="https://en.tiket.com/home-ms/assets/25a69c26.svg">
+                    </div>
+                    <div class="feature-info">
+                        <h3>Check Conformation</h3>
+                        <p>Faster booking, one click to fill passenger details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="loyalty-spot-wrapper">
+        <div class="container">
+            <div class="section-inner-heading">
+                <h3 class="title-text">Make Your Holiday Comfortable and Flexible</h3>
+                <h5 class="subtitle-text">tiket CLEAN and tiket FLEXI features will make you stay longer, comfortable,
+                    and
+                    flexible</h5>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <a href="#" class="link-image">
+                        <img src="https://static.tiket.photos/image/upload/v1594960389/home/2020/07/17/d7442303-a6f3-478c-b0c2-d3874a510837-1594960387966-b07a58a256dfc7f590428dace783067a.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="link-image">
+                        <img src="https://static.tiket.photos/image/upload/v1594960468/home/2020/07/17/86a6404a-b044-4154-8e5e-9e817ef47e36-1594960466635-6dc65783f50b4072eb8afa4a2609e1be.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="link-image">
+                        <img src="https://static.tiket.photos/image/upload/v1594960616/home/2020/07/17/b2d94ce2-3852-4a7e-a1f6-5d17e7f0c1bc-1594960615473-a7c772fca714ae50dbc5489a7b163eba.jpg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="link-image">
+                        <img src="https://static.tiket.photos/image/upload/v1594960722/home/2020/07/17/61b23810-1a60-45ff-96a4-2395bbdb9623-1594960720735-2ee5953faac68eb759bafccee1c209d9.jpg"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+            <a class="button-secondary" href="#">Find out more</a>
+        </div>
+        <div class="section-inner-heading">
+            <h3 class="title-text">TIX Benefits</h3>
+            <h5 class="subtitle-text">Get Exclusive Promo Only at tiket.com</h5>
+            <a class="button-secondary" href="#">Get More
+            </a>
+        </div>
+    </section>
+    <section class="simple">
+        <div class="section-inner-heading">
+            <h3 class="title-text">As simple as tiket.com!</h3>
+        </div>
+        <div class="box-feature-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 box-feature-item"><span><img alt="Easy to Buy Ticket and Hotels"
+                                src="https://en.tiket.com/home-ms/assets/ed0a35f2.svg"></span>
+                        <h5>Easy to Buy Ticket and Hotels</h5>
+                        <p class="desc">Buy flight tickets, hotels, trains, car rental, also
+                            tickets for event and attraction immediately on
+                            tiket.com app and website.</p>
+                    </div>
+                    <div class="col-md-4 box-feature-item"><span><img alt="Various Top Products"
+                                src="https://en.tiket.com/home-ms/assets/7d40bfe0.svg"></span>
+                        <h5>Various Top Products</h5>
+                        <p class="desc">Get various airlines with complete routes
+                            around the world and find many hotels in Asia.
+                            You also can get train tickets, book car rental,
+                            and entertainment tickets.</p>
+                    </div>
+                    <div class="col-md-4 box-feature-item"><span><img alt="Multiple Payment Methods"
+                                src="https://en.tiket.com/home-ms/assets/a7e114b3.svg"></span>
+                        <h5>Multiple Payment Methods</h5>
+                        <p class="desc">Choose your preferred payment methods,
+                            including via bank transfer, ATM transfer,
+                            Virtual Account (VA), debit card online, and
+                            credit card. You can also buy your tickets or
+                            hotels by installment. The process is
+                            easy and simple!</p>
+                    </div>
+                    <div class="col-md-4 box-feature-item"><span><img alt="Get Special Promo &amp; Discount!"
+                                src="https://en.tiket.com/home-ms/assets/4d88a54b.svg"></span>
+                        <h5>Get Special Promo &amp; Discount!</h5>
+                        <p class="desc">Find discounts for your favorite flights and
+                            hotels to save more for your upcoming
+                            vacation! Make your dream vacation come true
+                            with a special promo provided by tiket.com.
+                            There is no reason to delay your vacation!</p>
+                    </div>
+                    <div class="col-md-4 box-feature-item"><span><img alt="TIX Point for Members"
+                                src="https://en.tiket.com/home-ms/assets/4bc8a762.svg"></span>
+                        <h5>TIX Point for Members</h5>
+                        <p class="desc">Become a member at tiket.com and earn the
+                            TIX Point after every transaction. You can
+                            redeem the TIX Point to win special gift or get
+                            more discount for your next transaction.</p>
+                    </div>
+                    <div class="col-md-4 box-feature-item"><span><img alt="24/7 Customer Care"
+                                src="https://en.tiket.com/home-ms/assets/532e05ff.svg"></span>
+                        <h5>24/7 Customer Care</h5>
+                        <p class="desc">Our 24/7 Customer Care is always ready to
+                            help you. We’re here to ensure you to get the
+                            best services from tiket.com.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img alt="going anywhere? tiket.com!" class="bttm-image" src="https://en.tiket.com/home-ms/assets/adccc810.svg">
+    </section>
+    <section>
+        <div class="section-inner-heading">
+            <h3 class="title-text">As simple as tiket.com!</h3>
+        </div>
+        <div class="easy-simple-installment">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="https://en.tiket.com/home-ms/assets/easy-simple-installment.png.webp">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-block">
+                            <h3>Easy and Simple Installment</h3>
+
+                            <p>Book your tickets and hotel now, then pay the installment in just one click. Yup,
+                                easy-peasy as that! You can use this installment program to buy flight tickets, hotels,
+                                entertainment tickets, and rent a car. 3, 6, or 12 months installment? You choose! This
+                                installment program is valid for bank card holders partnered with tiket.com.</p>
+                            <a href="/cicilan">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  my-5 flex-column-reverse flex-md-row">
+                    <div class="col-md-5">
+                        <div class="text-block">
+                            <h3>Easy and Simple Installment</h3>
+
+                            <p>Book your tickets and hotel now, then pay the installment in just one click. Yup,
+                                easy-peasy as that! You can use this installment program to buy flight tickets, hotels,
+                                entertainment tickets, and rent a car. 3, 6, or 12 months installment? You choose! This
+                                installment program is valid for bank card holders partnered with tiket.com.</p>
+                            <a href="/cicilan">MORE</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-7">
+                        <img src="https://en.tiket.com/home-ms/assets/easy-simple-installment.png.webp">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="subscribe-letter">
+        <div class="container">
+            <div class="subscribe-title">Subscribe &amp; get updates on special promos</div>
+            <div class="subscribe">
+                <input type="text" name="email" value="" placeholder="Input your email here">
+                <a class="search-btn" type="submit" name="subscribe_btn" value="1">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-us">
+                        <div class="tiket-logo"><img
+                                src="https://static.tiket.photos/image/upload/v1591084378/logo/2020/06/02/2d19d960-a84f-4431-b1d6-ef93df229de4-1591084377073-fab786a46eee63c306f89837093520a4.png"
+                                alt="Tiket.com">
+                        </div>
+                        <div class="contact-us-content">
+                            <div class="icon-image">
+                                <img src="https://en.tiket.com/home-ms/assets/message.png" alt="whatsapp tiket.com">
+                            </div>
+                            <div class="contact-us-text">
+                                <h5>Whatsapp</h5>
+                                <p>0858 1150 0888</p>
+                            </div>
+                        </div>
+                        <div class="contact-us-content">
+                            <div class="icon-image">
+                                <img src="https://en.tiket.com/home-ms/assets/email.png" alt="whatsapp tiket.com">
+                            </div>
+                            <div class="contact-us-text">
+                                <h5>Email</h5>
+                                <p>0858 1150 0888</p>
+                            </div>
+                        </div>
+                        <div class="contact-us-content">
+                            <div class="icon-image">
+                                <img src="https://en.tiket.com/home-ms/assets/call.png" alt="whatsapp tiket.com">
+                            </div>
+                            <div class="contact-us-text">
+                                <h5>Call center</h5>
+                                <p>0858 1150 0888</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4> Company</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">TIX Point</a></li>
+                        <li><a href="#">Protection</a></li>
+                        <li><a href="#">Installment</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4> Product</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">TIX Point</a></li>
+                        <li><a href="#">Protection</a></li>
+                        <li><a href="#">Installment</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4> Support</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">TIX Point</a></li>
+                        <li><a href="#">Protection</a></li>
+                        <li><a href="#">Installment</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-6">
+                    <h4> Download tiket.com app
+                    </h4>
+                    <div class="app-store">
+                        <a href="#"><img
+                                src="https://static.tiket.photos/image/upload/v1566906089/home/2019/08/27/a1675362-dcd8-4cdf-b5e7-e8f19a0f3e18-1566906088525-439c59735093bc47a84e0a389a3ebfdf.png"></a>
+                        <a href="#"><img
+                                src="https://static.tiket.photos/image/upload/v1566906080/home/2019/08/27/20f9e8ec-b4c9-4961-b397-8a4b86f5de0f-1566906079170-b2136cf4644abf507b818814f501516f.png"></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom-brands">
+                <div class="row">
+                    <div class="col-md-3">
+
+
+                        <div class="wonderful-location">
+                            <img src="https://en.tiket.com/home-ms/assets/wonderfulIndonesia.png"
+                                alt="Wondeful Indonesia">
+                            <div class="wonderful-location-content">
+                                Official Partner
+                                of <br> the Ministry of Tourism, <br> Republic of Indonesia
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 Transaction">
+                        <h4>Secure Your Transaction</h4>
+                        <div class="image-block">
+                            <img src="https://en.tiket.com/home-ms/assets/verified-visa.png" alt="Visa">
+                            <img src="https://en.tiket.com/home-ms/assets/master-card.png" alt="MasterCard">
+                            <img src="https://en.tiket.com/home-ms/assets/geoTrust.png" alt="GeoTrust"><br>
+                            <img src="https://en.tiket.com/home-ms/assets/safekey.png" alt="safe key">
+                        </div>
+                    </div>
+                    <div class="col-md-3 Awards">
+                        <h4>Awards</h4>
+                        <div class="image-block">
+                            <img src="https://en.tiket.com/home-ms/assets/iata.png">
+                            <img src="https://en.tiket.com/home-ms/assets/topBrand.png">
+                            <img src="https://en.tiket.com/home-ms/assets/superbrand.png" alt="GeoTrust">
+                        </div>
+                    </div>
+                    <div class="col-md-3 Follow Us">
+                        <h4>Follow Us
+                        </h4>
+                        <div class="social-acc">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
