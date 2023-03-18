@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Transfer your ticket</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="transfer.css">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+            <img src="C:\Desktop\equinox\Photos\Dark Green and Marigold Regular Sports Logo.png" class="nav-brand" alt="logo tiket.com" width=80px height=62px>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li >
+                    <a href="about.html">About us</a>
+                </li>
+                <li>
+                    <a href="history.html">History</a>
+                </li>
+              <li>
+                <a href="">Services</a>
+                <ul class="nav-dropdown">
+                    <li >
+                        <a href="book.html">Book your seat</a>
+                    </li>
+                    
+                    <li>
+                        <a href="cancel.html">Cancel your last booking</a>
+                    </li>
+                    <li >
+                        <a href="transfer.html">Transfer Ticket</a>
+                    </li>
+                    <li >
+                        <a href="conformation.html">Check Conformation</a>
+                    </li>                  
+                </ul>
+              </li>
+              <li>
+                <a href="contact.html">Contact us</a>
+            </li>
+            <li>
+                <a href="login.html">Sign-in/Sign-up</a>
+            </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> To transfer your ticket to someone </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span> We would need some basic info:</legend>
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email">
+       
+          <label for="password">Password:</label>
+          <input type="password" id="password"       name="user_password">
+        
+          <label>Age:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Over 13</label>
+          
+        </fieldset>
+        <fieldset>  
+        
+          <legend><span class="number">2</span> Your Profile</legend>
+          
+         <label for="bio">Bio:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+        
+       
+        
+         <label for="job">Job Role:</label>
+          <select id="job" name="user_job">
+            <optgroup label="Web">
+              <option value="frontend_developer">Front-End Developer</option>
+              <option value="php_developer">PHP Developer</option>
+              <option value="python_developer">Python Developer</option>
+              <option value="rails_developer">Rails Developer</option>
+              <option value="web_designer">Web Designer</option>
+              <option value="wordpress_developer">Wordpress Developer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+              <option value="android_developer">Android Developer</option>
+              <option value="ios_developer">IOS Developer</option>
+              <option value="mobile_designer">Mobile Designer</option>
+            </optgroup>
+            <optgroup label="Business">
+              <option value="business_owner">Business Owner</option>
+              <option value="freelancer">Freelancer</option>
+            </optgroup>
+          </select>
+          
+          <label>Interests:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+          
+         </fieldset>
+       
+        <button type="submit">Sign Up</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
